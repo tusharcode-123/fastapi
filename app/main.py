@@ -23,6 +23,6 @@ app.include_router(user.router)
 app.include_router(vote.router)
 
 
-@app.get("/test")
+@app.get("/")
 def get():
-    return {"message":"hello this is blog app"}
+    return {"message":"add /docs to see fast api docs"}
